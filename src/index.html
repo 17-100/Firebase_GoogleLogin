@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login with Google Account</title>
+    <script src= "https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+    <script src= "https://www.gstatic.com/firebasejs/7.24.0/firebase-database.js"></script>
+    <script src= "https://www.gstatic.com/firebasejs/7.24.0/firebase-storage.js"></script>
+    <script src= "https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+</head>
+<body style='height:500px'>
+    <!-- UI Elements for Lgoin -->
+    <div id="loggedInStatus">
+        <h1>You are not yet logged in</h1>
+    </div>
+    <hr>
+    <input type="email" id="email" placeholder="Email">
+    <br>
+    <input type="password" id="password" placeholder="Password">
+    <br><br>
+    <button type="submit" id="login">Login</button>
+    <button type="submit" id="signup">SignUp</button>
+    <button type="submit" id="googlelogin">Google Login</button>
+    <button id="logout" style="display:none;">Logout</button>
+
+    <script src="login.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "firebase_googlelogin",
+  "version": "1.0.0",
+  "description": "firebase project with google-login",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sebisteri@outlook.com",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^9.1.0"
+  }
+}
